@@ -1,0 +1,61 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg-info/
+*.ipynb_checkpoints
+
+# === Virtual Environments ===
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# === Model Files & Artifacts ===
+# *.pkl
+# *.h5
+# *.joblib
+# *.sav
+# backend/model/*.pkl
+# backend/model/*.h5
+# backend/model/*.json
+
+# === Logs & Cache ===
+*.log
+*.tmp
+*.cache/
+.cache/
+*.DS_Store
+
+# === Jupyter Notebook Output ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Streamlit Specific ===
+.streamlit/config.toml
+
+# === System Files ===
+Thumbs.db
+.DS_Store
+
+# === Docker ===
+*.env
+docker-compose.override.yml
+*.pid
+
+# === Ignore large datasets and raw data ===
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.zip
+
+# === Ignore screenshots & assets (optional) ===
+# assets/*.png
+# assets/*.jpg
+# screenshots/
