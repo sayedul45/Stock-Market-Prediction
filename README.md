@@ -6,26 +6,30 @@ An intelligent stock price forecasting system powered by machine learning and NL
 
 ## 📂 Project Structure
 
-├── backend/ # Flask backend API
-│ ├── app.py # API server
-│ ├── utils.py # Feature builder for inference
-│ └── model/ # Saved model + encoders
-│ ├── best_model_xgboost.pkl
-│ ├── scaler_X.pkl
-│ ├── scaler_y.pkl
-│ ├── label_encoder_code.pkl
-│ └── features.json
-├── frontend/ # Streamlit frontend
-│ ├── app.py # Streamlit UI
-│ ├── static/ # Optional static files (CSS)
-│ └── components/ # Streamlit display components
-├── assets/ # Screenshots for documentation
-│ ├── streamlit_ui.png
-│ └── flask_api_docs.png
-├── docker-compose.yml # Docker integration (optional)
-├── sample_input.csv # Example input file
-├── .gitignore
-└── README.md # Project documentation
+stock_price_predictor/
+├── backend/                   # Flask backend API
+│   ├── app.py                 # Main Flask API server
+│   ├── utils.py               # Feature builder during inference
+│   └── model/                 # Model artifacts
+│       ├── best_model_xgboost.pkl     # Trained ML model
+│       ├── scaler_X.pkl               # Feature scaler
+│       ├── scaler_y.pkl               # Target scaler
+│       ├── label_encoder_code.pkl     # Label encoder for company codes
+│       └── features.json              # List of input features
+│
+├── frontend/                 # Streamlit frontend app
+│   ├── app.py                # Streamlit user interface
+│   ├── static/               # (Optional) CSS or static assets
+│   └── components/           # Modular UI components (optional)
+│
+├── assets/                   # Screenshots for documentation
+│   ├── streamlit_ui.png
+│   └── flask_api_docs.png
+│
+├── docker-compose.yml        # Docker integration (optional)
+├── sample_input.csv          # Sample input data file
+├── .gitignore                # Git ignored files and folders
+└── README.md                 # Project documentation
 
 
 
@@ -50,7 +54,7 @@ An intelligent stock price forecasting system powered by machine learning and NL
 | Backend    | Flask, Scikit-learn, XGBoost, LightGBM     |
 | NLP        | Sentence-Transformers, BERT                |
 | Frontend   | Streamlit                                  |
-| DevOps     | Docker, Docker Compose                     |
+
 
 ---
 
@@ -68,7 +72,7 @@ python app.py
 ```bash
 cd frontend
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## 🖼️ Screenshots
