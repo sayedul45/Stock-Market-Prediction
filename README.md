@@ -5,7 +5,7 @@ An intelligent stock price forecasting system powered by machine learning and NL
 ---
 
 ## 📂 Project Structure
-
+```
 stock_price_predictor/
 ├── backend/                   # Flask backend API
 │   ├── app.py                 # Main Flask API server
@@ -30,7 +30,7 @@ stock_price_predictor/
 ├── sample_input.csv          # Sample input data file
 ├── .gitignore                # Git ignored files and folders
 └── README.md                 # Project documentation
-
+```
 
 
 ---
