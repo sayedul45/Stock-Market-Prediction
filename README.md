@@ -1,4 +1,4 @@
-# 📈 Stock Market Prediction using News Headlines (Flask + Streamlit)
+# 📈 Stock Market Prediction using Historical Data & News Headlines (Flask + Streamlit)
 
 An intelligent stock price forecasting system powered by machine learning and NLP. This project predicts future stock prices based on historical trends and financial news headlines.
 
